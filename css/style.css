@@ -2,9 +2,17 @@
 article, canvas, embed, footer, header, nav, section, source, video {display:block;}
 
 /* Глобальная настройка*/
-html {width:100%;}
-body {font-family:Arial, Helvetica, sans-serif;font-size:100%;color:#4c4c4c;min-width:980px;background:#eee}
-.bg {width:100%; padding:25px 0 28px; background:url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/DSCN3386у.jpg) left top repeat;}
+html {
+        background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/DSCN3419к.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    
+    
+}
+body {font-family:Arial, Helvetica, sans-serif;font-size:100%;color:#4c4c4c;min-width:980px;background:}
+.bg {width:100%; padding:25px 0 28px;  background:url(../images/bg-tail.png) left top repeat;}
 	.bg .padding {padding:0 20px 0 39px;}
 
 .main {
@@ -121,6 +129,9 @@ h1 {
 .menu li a:hover {color:#97005f;}
 
 /*****BG-slider*****/
+.unseen {
+   opacity: 0.5;
+}
 .bg_spinner { 
 	width:100%; 
 	height:100%; 
@@ -163,6 +174,7 @@ h1 {
 	padding-top:12px;
 }
 /***** slider *****/
+
 .slider {
 	position:relative;
 	width:900px;
@@ -207,7 +219,7 @@ h1 {
   transition: all 1s ease-in-out;
 }
 .banner-2:hover	 {
-	background:url(../images/banner-5.jpg) 0 0 no-repeat;
+	background:url(../images/banner-4.jpg) 0 0 no-repeat;
  -moz-transition: all 1s ease-in-out;
   -webkit-transition: all 1s ease-in-out;
   -o-transition: all 1s ease-in-out;
@@ -326,3 +338,96 @@ footer {
 	overflow:hidden;
 } 
 html, body {height:100%;}
+
+	/* Large desktops and laptops */
+
+/*@media screen and (min-width: 1200px) {
+	html{
+		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/mainstar.jpg);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-repeat:no-repeat;
+background-position:center;
+background-attachment:fixed;
+overflow-x: hidden;
+}*/
+/* Landscape tablets and medium desktops */
+/*@media screen and (min-width: 992px) and (max-width: 1199px) {
+		html{
+		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/mainstar.jpg);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-repeat:no-repeat;
+background-position:center;
+background-attachment:fixed;
+overflow-x: hidden;
+}
+}*/
+/* Portrait tablets and small desktops Мой samsung 
+@media screen and (min-width: 768px) and (max-width: 991px) {
+		html{
+		 max-width: 100%;
+                 height: auto;
+                 display: block;
+		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/DSCN3419кsmall.jpg);
+overflow-x: hidden;
+background-repeat:repeat;
+background-position:center;
+background-attachment:fixed;
+}
+		}
+		body {
+	margin:0px;
+	padding:0px;
+        display: block;
+   
+}
+
+
+*/
+
+/* Landscape phones and portrait tablets 
+@media screen and (max-width: 767px) {
+			html{
+		 max-width: 100%;
+                 height: auto;
+                 display: block;
+		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/DSCN3419кsmall.jpg);
+overflow-x: hidden;
+background-repeat:repeat;
+background-position:bottom;
+background-attachment:fixed;
+}
+		}
+		body {
+	margin:0px;
+	padding:0px;
+        display: block;
+   
+}
+
+/* Portrait phones and smaller 
+@media screen and (max-width: 480px) {
+			html{
+		 max-width: 100%;
+                 height: auto;
+                 display: block;
+		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/DSCN3419кsmall.jpg);
+overflow-x: hidden;
+background-repeat:repeat;
+background-position:bottom;
+background-attachment:fixed;
+}
+		}
+		body {
+	margin:0px;
+	padding:0px;
+        display: block;
+   
+}
+
+

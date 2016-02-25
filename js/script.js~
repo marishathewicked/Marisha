@@ -1,13 +1,13 @@
-$(document).ready(function() { 
+$(document).ready(function(){
 	$(".list-services .tooltips").easyTooltip();
 }); 
 
 $(window).load(function() {
 	$('#bgSlider').bgSlider({
 		duration:1000,
-		pagination:'.navigationpage',
+		navigationpage:'.navigationpage',
 		preload:true,
-		slideshow:30000,
+		slideshow:10000,
 		spinner:'.bg_spinner'
 	});
 });

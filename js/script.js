@@ -1,4 +1,4 @@
-$(document).ready(function() { 
+$(document).ready(function(){
 	$(".list-services .tooltips").easyTooltip();
 }); 
 
@@ -7,7 +7,7 @@ $(window).load(function() {
 		duration:1000,
 		navigationpage:'.navigationpage',
 		preload:true,
-		slideshow:30000,
+		slideshow:20000,
 		spinner:'.bg_spinner'
 	});
 });

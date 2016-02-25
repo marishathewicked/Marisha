@@ -3,7 +3,7 @@ article, canvas, embed, footer, header, nav, section, source, video {display:blo
 
 /* Глобальная настройка*/
 html {
-        background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/DSCN3386у.jpg) no-repeat center center fixed;
+        background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/imageart7.jpg) no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -204,7 +204,7 @@ h1 {
 .banner-2 {
 	width:300px;
 	height:300px;
-	background:url(../images/banner-6.jpg) 0 0 no-repeat;
+	background:url(../images/banner-12.jpg) 0 0 no-repeat;
 	position:absolute;
 	left:20px;
 	top:-3px;
@@ -215,7 +215,7 @@ h1 {
   transition: all 1s ease-in-out;
 }
 .banner-2:hover	 {
-	background:url(../images/banner-7.jpg) 0 0 no-repeat;
+	background:url(../images/banner-13.jpg) 0 0 no-repeat;
  -moz-transition: all 1s ease-in-out;
   -webkit-transition: all 1s ease-in-out;
   -o-transition: all 1s ease-in-out;
@@ -362,3 +362,96 @@ footer {
 	overflow:hidden;
 } 
 html, body {height:100%;}
+
+	/* Large desktops and laptops */
+
+/*@media screen and (min-width: 1200px) {
+	html{
+		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/mainstar.jpg);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-repeat:no-repeat;
+background-position:center;
+background-attachment:fixed;
+overflow-x: hidden;
+}*/
+/* Landscape tablets and medium desktops */
+/*@media screen and (min-width: 992px) and (max-width: 1199px) {
+		html{
+		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/mainstar.jpg);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-repeat:no-repeat;
+background-position:center;
+background-attachment:fixed;
+overflow-x: hidden;
+}
+}*/
+/* Portrait tablets and small desktops Мой samsung 
+@media screen and (min-width: 768px) and (max-width: 991px) {
+		html{
+		 max-width: 100%;
+                 height: auto;
+                 display: block;
+		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/DSCN3419кsmall.jpg);
+overflow-x: hidden;
+background-repeat:repeat;
+background-position:center;
+background-attachment:fixed;
+}
+		}
+		body {
+	margin:0px;
+	padding:0px;
+        display: block;
+   
+}
+
+
+*/
+
+/* Landscape phones and portrait tablets 
+@media screen and (max-width: 767px) {
+			html{
+		 max-width: 100%;
+                 height: auto;
+                 display: block;
+		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/DSCN3419кsmall.jpg);
+overflow-x: hidden;
+background-repeat:repeat;
+background-position:bottom;
+background-attachment:fixed;
+}
+		}
+		body {
+	margin:0px;
+	padding:0px;
+        display: block;
+   
+}
+
+/* Portrait phones and smaller 
+@media screen and (max-width: 480px) {
+			html{
+		 max-width: 100%;
+                 height: auto;
+                 display: block;
+		background: url( https://s3.eu-central-1.amazonaws.com/marishathewicked/images/DSCN3419кsmall.jpg);
+overflow-x: hidden;
+background-repeat:repeat;
+background-position:bottom;
+background-attachment:fixed;
+}
+		}
+		body {
+	margin:0px;
+	padding:0px;
+        display: block;
+   
+}
+
+

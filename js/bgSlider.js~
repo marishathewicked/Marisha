@@ -62,7 +62,7 @@ $.fn.extend({
 $.extend(_fw.meth,{
 	bgSlider:{
 			slideshow:false,
-			duration:1500,
+			duration:150,
 			easing:'',
 			preload:false,
 			navigationpage:false,
