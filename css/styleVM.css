@@ -3,7 +3,7 @@ article, canvas, embed, footer, header, nav, section, source, video {display:blo
 
 /* Глобальная настройка*/
 html {
-        background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/imageart7.jpg) no-repeat center center fixed;
+        background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/imageart21.jpg) no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -15,6 +15,7 @@ body {font-family:Arial, Helvetica, sans-serif;font-size:100%;color:#4c4c4c;min-
 .bg {width:100%; padding:25px 0 28px;  background:url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/bg-tail.png) left top repeat;}
 	.bg .padding {padding:0 20px 0 39px;}
 	
+
 .main {
 	width:980px; 	
 	padding:0;
@@ -180,7 +181,7 @@ h1 {
 .items {display:none;}
 
 .banner {
-	width:400px;
+	width:550px;
 	height:450px;
 	overflow:hidden;
 	position:absolute;
@@ -190,11 +191,12 @@ h1 {
 }
 	.title {
 		display:block;
-		font-size:38px;
+		font-size:34px;
 		line-height:1.5em;
 	}
-	.title strong {display:inline-block; line-height:1.5em; color:#a30154;}
-	.title em {display:inline-block; line-height:0.3em; font-style:normal; color:#242424;}
+	.title strong {display:inline-block; line-height:1.2em; color:#a30154;
+	  margin:10px;}
+	.title em {display:inline-block; line-height:0.4em; font-style:normal; color:#242424;text-indent:10px;}
 	.banner p {
 		font-family: 'Adamina', serif;
 		font-size:15px;
@@ -203,8 +205,8 @@ h1 {
 	}
 .banner-2 {
 	width:300px;
-	height:300px;
-	background:url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/banner-20.jpg) 0 0 no-repeat;
+	height:383px;
+	background:url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/banner-19.jpg) 0 0 no-repeat;
 	position:absolute;
 	left:20px;
 	top:-3px;
@@ -215,7 +217,7 @@ h1 {
   transition: all 1s ease-in-out;
 }
 .banner-2:hover	 {
-	background:url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/banner-15.jpg) 0 0 no-repeat;
+	background:url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/banner-18.jpg) 0 0 no-repeat;
  -moz-transition: all 1s ease-in-out;
   -webkit-transition: all 1s ease-in-out;
   -o-transition: all 1s ease-in-out;
@@ -288,7 +290,7 @@ h6 {color:#4c4c4c;}
 .list-1 li {
 	font-size:14px;
 	line-height:24px; 
-	padding-left:20px; 
+	padding-left:0px; 
 	background:url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/marker-2.png) 0 7px no-repeat;
 }
 	.list-1 li a {

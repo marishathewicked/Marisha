@@ -181,7 +181,7 @@ h1 {
 .items {display:none;}
 
 .banner {
-	width:400px;
+	width:450px;
 	height:450px;
 	overflow:hidden;
 	position:absolute;
@@ -191,11 +191,12 @@ h1 {
 }
 	.title {
 		display:block;
-		font-size:38px;
+		font-size:34px;
 		line-height:1.5em;
 	}
-	.title strong {display:inline-block; line-height:1.5em; color:#a30154;}
-	.title em {display:inline-block; line-height:0.3em; font-style:normal; color:#242424;}
+	.title strong {display:inline-block; line-height:1.2em; color:#a30154;
+	  margin:10px;}
+	.title em {display:inline-block; line-height:0.4em; font-style:normal; color:#242424;text-indent:10px;}
 	.banner p {
 		font-family: 'Adamina', serif;
 		font-size:15px;
@@ -289,7 +290,7 @@ h6 {color:#4c4c4c;}
 .list-1 li {
 	font-size:14px;
 	line-height:24px; 
-	padding-left:20px; 
+	padding-left:0px; 
 	background:url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/marker-2.png) 0 7px no-repeat;
 }
 	.list-1 li a {
