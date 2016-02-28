@@ -206,7 +206,7 @@ h1 {
 .banner-2 {
 	width:300px;
 	height:383px;
-	background:url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/banner-19.jpg) 0 0 no-repeat;
+	background:url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/banner-18.jpg) 0 0 no-repeat;
 	position:absolute;
 	left:20px;
 	top:-3px;
@@ -217,7 +217,7 @@ h1 {
   transition: all 1s ease-in-out;
 }
 .banner-2:hover	 {
-	background:url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/banner-18.jpg) 0 0 no-repeat;
+	background:url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/banner-21.jpg) 0 0 no-repeat;
  -moz-transition: all 1s ease-in-out;
   -webkit-transition: all 1s ease-in-out;
   -o-transition: all 1s ease-in-out;
