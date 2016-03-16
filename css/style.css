@@ -386,8 +386,6 @@ background-attachment:fixed;
         display: block;
    
 }
-
-
 */
 
 /* Landscape phones and portrait tablets 
@@ -409,7 +407,6 @@ background-attachment:fixed;
         display: block;
    
 }
-
 /* Portrait phones and smaller 
 @media screen and (max-width: 480px) {
 			html{
@@ -429,5 +426,3 @@ background-attachment:fixed;
         display: block;
    
 }
-
-
