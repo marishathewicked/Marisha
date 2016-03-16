@@ -174,14 +174,14 @@ h1 {
 .slider {
 	position:relative;
 	width:900px;
-	height:340px;
+	height:380px;
 	margin:0 auto 30px;
 }
 .items {display:none;}
 
 .banner {
 	width:400px;
-	height:450px;
+	height:490px;
 	overflow:hidden;
 	position:absolute;
 	top:0;
