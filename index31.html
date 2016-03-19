@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Andrew</title>
+     <link rel="stylesheet" href="style31.css" type="text/css" media="screen">
+    <!-- Get jQuery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="typed.js" type="text/javascript"></script>
+    <script>
+    $(function(){
+        $("#typed").typed({
+            // strings: ["Typed.js is a <strong>jQuery</strong> plugin.", "It <em>types</em> out sentences.", "And then deletes them.", "Try it out!"],
+            stringsElement: $('#typed-strings'),
+            typeSpeed: 70,
+            backDelay: 500,
+            loop: false,
+            contentType: 'html', // or text
+            // defaults to false for infinite loop
+            loopCount: false,
+            callback: function(){ foo(); },
+            resetCallback: function() { newTyped(); }
+        });
+
+        $(".reset").click(function(){
+            $("#typed").typed('reset');
+        });
+
+    });
+
+    function newTyped(){ /* A new typed object */ }
+
+    function foo(){ console.log("Callback"); }
+
+    </script>
+ 
+</head>
+<body>
+
+    <div class="wrap">
+        <h1 align="center" class="h1">Happy Birthday Andrew</h1>
+
+        <div class="type-wrap">
+            <div id="typed-strings">
+                <p>You are wonderful!</p>
+                <p>You are charming!</p>
+                <p>You are smart!</p>
+                <p>You are cute!</p>
+                <p>You are a gret friend!</p>
+                <p>You are kind!</p>
+                <p>You are amazing!</p>
+                <p>You are my Andrusha!</p>
+            </div>
+            <span id="typed" style="white-space:pre;"></span>
+        </div>
+        
+            
+     <h3 align="center" class="h3">Happy Birthday from the heart<br>
+Your new excellent year will start.<br>
+Hope lovely surprises are coming on your way,<br>
+To make you life awesome every day.<br>
+There is no one as cute and fun as you.<br>
+May all your dreams come true.<br>
+Lots of love and kisses,<br>
+Lots of present too.<br>
+For my amazing friend,<br>
+And, darling, that is you!</h3>
+       
+    </div>
+
+</body>
+</html>

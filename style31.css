@@ -1,0 +1,69 @@
+@font-face {
+  font-family: CurlzMTRegular;
+  src: url(fonts/CurlzMTRegular.eot);
+}
+html {
+        background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/bin/banner-23.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        }
+        
+h1, h2, h4, h5, h6 {
+  /* Always use a font stack, even with custom web fonts! */
+  font-family: CurlzMTRegular, Helvetica, Arial, sans-serif;
+  background:#DDA0DD;
+  color:#663399;
+}
+
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+	font-family: "Ubuntu", sans-serif;
+	font-size: 100%;
+	backgroundt:#f8f8f8;
+}
+
+a{
+	text-decoration: none;
+	color:#666;
+}
+	a:hover{
+		color:#999;
+	}
+p{
+	line-height: 2em;
+	margin:0 0 20px;
+	text-align: center;
+}
+
+.wrap{
+	max-width: 600px;
+	margin:150px auto;
+}
+
+.type-wrap{
+	margin:10px auto;
+	padding:20px;
+	background:#f0f0f0;
+	border-radius:5px;
+	border:#CCC 1px solid;
+}
+
+
+
+.h3{
+    position:fixed; 
+	margin:10px auto;
+	padding:30px;
+	 top:300px;
+    width:540px;
+	height:210px;
+	background:#FFE4C4;
+    color:#6495ED;
+	
+}
