@@ -8,6 +8,7 @@ html {
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
+        overflow-y: scroll;
         }
         
 h1, h2, h4, h5, h6 {
