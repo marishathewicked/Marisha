@@ -10,7 +10,7 @@ html {
         background-size: cover;
         overflow-y: scroll;
         }
-        
+  body {font-family:CurlzMTRegular;font-size:100%;color:#4c4c4c;min-width:980px;background:}      
 h1, h2, h4, h5, h6 {
   /* Always use a font stack, even with custom web fonts! */
   font-family: CurlzMTRegular, Helvetica, Arial, sans-serif;
