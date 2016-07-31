@@ -1,0 +1,397 @@
+/*new tags */
+article, canvas, embed, footer, header, nav, section, source, video {display:block;}
+
+/* Глобальная настройка*/
+html {
+        background: url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/imageart4.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    
+    
+}
+body {font-family:Arial, Helvetica, sans-serif;font-size:100%;color:#4c4c4c;min-width:980px;background:}
+.bg {width:100%; padding:25px 0 28px;  background:url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/bg-tail.png) left top repeat;}
+	.bg .padding {padding:0 20px 0 39px;}
+	
+
+.main {
+	width:980px; 	
+	padding:0;
+	margin:0 auto;
+	font-size:0.875em;
+	line-height:1.714em;
+	position:relative;
+}
+
+a {color:#97005f; outline:none;}
+a:hover {text-decoration:none;}
+
+.wrapper {width:100%; overflow:hidden; position:relative;}
+.extra-wrap {overflow:hidden;}
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+ 
+p {margin-bottom:18px;}
+.p1 {margin-bottom:8px;}
+.p2 {margin-bottom:15px;}
+.p3 {margin-bottom:30px;}
+.p4 {margin-bottom:40px;}
+.p5 {margin-bottom:50px;}
+
+.fleft {float:left;}
+.fright {float:right;}
+
+.alignright {text-align:right;}
+.aligncenter {text-align:center;}
+
+.color-3 {color:#a30154;}
+
+/****boxes**/
+.inner {padding:20px 0;}
+.indent-top {padding-top:25px;}
+.indent {padding:0 40px 0 20px;}
+.indent-left {padding-left:20px;}
+.indent-right {padding-right:20px;}
+.menu li a,
+.list-2 li a,
+.navigationpage li a,
+.link,
+
+h1 a {text-decoration:none;}	
+
+/**header***/
+header {
+	width:100%;
+	position:relative; 
+	z-index:2;
+}
+.top-row {
+	width:100%;
+	padding:30px 0 25px 0;
+	background:url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/header-tail.png) center top repeat;
+	opacity: 0.8;
+}
+.menu-row {
+	width:100%;
+	padding:0;
+	border-bottom:1px solid #fff;
+	background:url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/menu-row-tail.gif) center top repeat-x;
+	opacity: 0.6;
+}
+.menu-border {
+	border-left:1px solid #fff;
+	border-right:1px solid #fff;
+}
+
+h1 {
+	padding:0 0 0 40px; 
+	float:left;
+}
+	h1 a {
+		display:block; 
+		width:310px;
+		height:73px;
+		text-indent:-9999px;
+		background:url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/logoM.png) 0 0 no-repeat;
+	}
+	
+/***** menu *****/
+.menu {
+	width:100%;
+	min-height:58px;
+	overflow:hidden;
+	background:url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/menu-spacer.gif) left top no-repeat;
+}
+.menu li {
+	float:left; 
+	position:relative;
+	background:url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/menu-spacer.gif) right top no-repeat;
+}
+.menu li a {
+	display:block; 
+	font-family: 'Adamina', serif;
+	font-size:20px; 
+	line-height:2.5em; 
+	letter-spacing:-1px;
+	padding:5px 44px 4px 40px; 
+	color:#000; 
+}
+.menu > li:first-child > a {padding:5px 44px 4px 45px;}
+.menu li.last a {padding:5px 47px 4px 40px;}
+.menu li a.active,
+.menu li a:hover {color:#97005f;}
+
+/*****BG-slider*****/
+.bg_spinner { 
+	width:100%; 
+	height:100%; 
+	position:fixed; 
+	z-index:9; 
+	background:url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/loader.gif) 50% 50% no-repeat;
+}
+.navigationpage { 
+	float:right; 
+	padding:14px 40px 0 0;
+}
+	.navigationpage li { 
+		float:left;
+		padding-left:5px;
+	}
+		.navigationpage li a { 
+			font-family:"Times New Roman", Times, serif;
+			font-style:italic;
+			font-weight:bold;
+			display:block; 
+			background:url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/bg-slider-navigationpage.png) right top no-repeat;
+			width:35px; 
+			height:35px;
+			font-size:26px;
+			line-height:1.2em;
+			text-align:center;
+			color:#000;
+		}
+		.navigationpage a:hover, 
+		.navigationpage .current a {background-position:left top; color:#fff;}
+.bg-text {
+	display:block;
+	font-family: 'Adamina', serif;
+	font-size:19px;
+	line-height:2em;
+	font-weight:400;
+	color:#fff;
+	float:right;
+	margin-right:4px;
+	padding-top:12px;
+}
+/***** slider Здесь и будем увеличивать блок при дабавлении новых articles ***********************************************/
+.slider {
+	position:relative;
+	width:700px;
+	height:1030px;
+	margin:0 auto 30px;
+}
+.items {display:none;}
+
+.banner {
+	width:700px;
+	height:1060px;
+	overflow:hidden;
+	position:absolute;
+	top:0;
+	left:2px;
+	z-index:99;
+}
+	.title {
+		display:block;
+		font-size:38px;
+		line-height:1.5em;
+	}
+	.title strong {display:inline-block; line-height:1.5em; color:#a30154;}
+	.title em {display:inline-block; line-height:0.3em; font-style:normal; color:#242424;}
+	.banner p {
+		font-family: 'Adamina', serif;
+		font-size:14px;
+		line-height:22px;
+		color:#4d4d4d;
+	}
+
+.leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 12px 7px 0; /* Отступы вокруг картинки */
+   }
+   .rightimg  {
+    float: right; /* Выравнивание по правому краю  */ 
+    margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+   }
+  /*круги эффекты***/ 
+  
+   .round {
+  	width:200px;
+	height:200px;
+    border-radius: 150px; /* Радиус скругления */
+    border: 3px solid #a30154; /* Параметры рамки */
+    opacity:0.8;
+      -moz-transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  }
+
+  .round:hover {
+    width:250px;
+	height:250px;
+    border: 3px solid #a30154; /* Параметры рамки */
+    border-radius: 150px;
+    opacity:1;
+        -moz-transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+ 
+    
+     }
+.ch-item {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: relative;
+    cursor: default;
+    box-shadow: 
+        inset 0 0 0 16px rgba(255,255,255,0.6),
+        0 1px 2px rgba(0,0,0,0.1);
+ 
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+ 
+.ch-info {
+    position: absolute;
+    background: rgba(63,147,147, 0.8);
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
+    opacity: 0;
+ 
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+ 
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -o-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+ 
+    -webkit-backface-visibility: hidden;
+}
+ 
+.ch-item:hover {
+    box-shadow: 
+        inset 0 0 0 1px rgba(255,255,255,0.1),
+        0 1px 2px rgba(0,0,0,0.1);
+}
+
+/*content***/
+#content {
+	width:850px; 
+	padding:30px 0 43px;
+	background:url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/content-tail.png) left top repeat;
+	position:relative;
+	z-index:1;
+}
+	.padding-2 {padding:0 20px 0 39px;}
+
+h3 {
+	font-family: 'Adamina', serif;
+	font-size:24px; 
+	line-height:1.208em; 
+	font-weight:400;
+	margin-bottom:8px;
+	color:#000;
+}
+h4 {
+	font-size:34px;
+	line-height:1.205em;
+	margin-bottom:3px;
+}
+	h4 strong {display:inline-block; line-height:1.2em; color:#ca4b00;}
+	h4 em {display:inline-block; line-height:1.2em; font-style:normal; color:#000;}
+
+h6 {color:#4c4c4c;}
+
+.border-bot {
+	width:100%; 
+	padding-bottom:20px; 
+	background:url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/pic-1.gif) 0 bottom repeat-x;
+}
+
+.list-1 li {
+	font-size:14px;
+	line-height:24px; 
+	padding-left:20px; 
+	background:url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/marker-2.png) 0 7px no-repeat;
+}
+	.list-1 li a {
+		display:inline-block;
+		color:#000;
+	}
+	.list-1 li a:hover {text-decoration:none;}
+
+.link:hover {text-decoration:underline;} 
+
+dl span {float:left; width:79px;}
+
+/******footer*******/
+footer {
+	width:100%; 
+	height:105px;
+	background:url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/footer-tail.png) center top repeat;
+	position:relative;
+	overflow:hidden;
+	z-index:99;
+	opacity: 0.8;
+}
+	footer .padding {padding:20px 0;}
+	
+.footer-text {
+	font-size:14px;
+	line-height:1.214em;
+	color:#fff;
+	padding-left:40px;
+}
+	.footer-text span {color:#97005f;}
+	.footer-text strong {
+		display:block;
+		font-weight:normal;
+		padding-top:7px;
+	}
+
+.list-services {
+	padding:3px 35px 0 0;
+	float:right;
+}
+	.list-services li {
+		float:left; 
+		padding:0 5px 0 0;
+		font-family: 'Adamina', serif;
+		font-size:19px;
+		line-height:2em;
+		color:#fff;
+	}
+	.list-services li:first-child {padding-right:25px;}
+		.list-services li a {
+			display:block;
+			width:35px;
+			height:35px;
+			text-indent:-9999px;
+			background:url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/social-icons.png) 0 0 no-repeat;
+		}
+		.list-services li.item-1 a {background-position:-40px 0;}
+		.list-services li.item-2 a {background-position:-80px 0;}
+		
+
+	
+/*********extra***********/
+.block {height:105px;}
+.extra {
+	min-height:100%; 
+	height:auto !important; 
+	height:100%; 
+	margin: 0 auto -105px; 
+	position:relative;
+	overflow:hidden;
+} 
+html, body {height:100%;}
