@@ -170,7 +170,7 @@ h1 {
 	margin-right:4px;
 	padding-top:12px;
 }
-/***** slider Здесь и будем увеличивать блок при дабавлении новых articles *****/
+/***** slider Здесь и будем увеличивать блок при дабавлении новых articles slider and banner *****/
 .slider {
 	position:relative;
 	width:900px;
@@ -181,7 +181,7 @@ h1 {
 
 .banner {
 	width:400px;
-	height:560px;
+	height:580px;
 	overflow:hidden;
 	position:absolute;
 	top:0;
