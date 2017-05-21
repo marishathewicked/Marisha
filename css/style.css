@@ -178,7 +178,7 @@ h1 {
 .slider {
 	position:relative;
 	width:900px;
-	height:280px;
+	height:300px;
 	margin:0 auto 30px;
 }
 .items {display:none;}
