@@ -411,7 +411,7 @@ footer {
 			width:35px;
 			height:35px;
 			text-indent:-9999px;
-			background:url(https://s3.eu-central-1.amazonaws.com/marishathewicked/images/social-icons.png) 0 0 no-repeat;
+			background:url(https://marishathewicked.s3.eu-central-1.amazonaws.com/images/social-icons.png) 0 0 no-repeat;
 		}
 		.list-services li.item-1 a {background-position:-40px 0;}
 		.list-services li.item-2 a {background-position:-80px 0;}
